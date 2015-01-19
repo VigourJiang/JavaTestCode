@@ -52,3 +52,4 @@ Temporary Items
 /test-openJDK/target
 /test-springAop/target
 /test-apache-commons/target
+/test-openJDK/bin
