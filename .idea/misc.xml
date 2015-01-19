@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="EntryPointsManager">
+    <entry_points version="2.0" />
+  </component>
+  <component name="IdProvider" IDEtalkID="E4737A0BA464D5053381C672E4F16442" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/test-guava/pom.xml" />
+        <option value="$PROJECT_DIR$/test-jdbc/pom.xml" />
+        <option value="$PROJECT_DIR$/java-trickyCode/pom.xml" />
+        <option value="$PROJECT_DIR$/test-hibernate/pom.xml" />
+        <option value="$PROJECT_DIR$/test-jackson/pom.xml" />
+        <option value="$PROJECT_DIR$/test-freemarker/pom.xml" />
+        <option value="$PROJECT_DIR$/test-springAop/pom.xml" />
+        <option value="$PROJECT_DIR$/test-apache-commons/pom.xml" />
+        <option value="$PROJECT_DIR$/test-mybatis/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_7" assert-keyword="true" jdk-15="true" project-jdk-name="1.7" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

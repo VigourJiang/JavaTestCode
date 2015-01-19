@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/java-trickyCode/java-trickyCode.iml" filepath="$PROJECT_DIR$/java-trickyCode/java-trickyCode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test-apache-commons/test-apache-commons.iml" filepath="$PROJECT_DIR$/test-apache-commons/test-apache-commons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test-freemarker/test-freemarker.iml" filepath="$PROJECT_DIR$/test-freemarker/test-freemarker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test-guava/test-guava.iml" filepath="$PROJECT_DIR$/test-guava/test-guava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test-hibernate/test-hibernate.iml" filepath="$PROJECT_DIR$/test-hibernate/test-hibernate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test-jackson/test-jackson.iml" filepath="$PROJECT_DIR$/test-jackson/test-jackson.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test-jdbc/test-jdbc.iml" filepath="$PROJECT_DIR$/test-jdbc/test-jdbc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test-mybatis/test-mybatis.iml" filepath="$PROJECT_DIR$/test-mybatis/test-mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test-openJDK/test-openJDK.iml" filepath="$PROJECT_DIR$/test-openJDK/test-openJDK.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test-springAop/test-springAop.iml" filepath="$PROJECT_DIR$/test-springAop/test-springAop.iml" />
+    </modules>
+  </component>
+</project>
