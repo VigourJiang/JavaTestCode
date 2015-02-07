@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
 <mapper namespace="com.vigour.EmployeesMapper" >
+    <cache
+            eviction="FIFO"
+            flushInterval="60000"
+            size="512"
+
+            readOnly="true"/>
 
     <resultMap id="BaseResultMap" type="com.vigour.entity.Employee" >
         <id column="EMPLOYEE_ID" property="employeeId" jdbcType="DECIMAL" />
@@ -10,10 +16,18 @@
         <result column="SALARY" property="salary" jdbcType="DECIMAL" />
     </resultMap>
 
-    <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
+    <select id="selectByPrimaryKey" resultMap="BaseResultMap"
+            parameterType="java.lang.Integer" useCache="true">
         select
         EMPLOYEE_ID, FIRST_NAME, LAST_NAME, EMAIL, SALARY
         from EMPLOYEES
         where EMPLOYEE_ID = #{employeeId,jdbcType=DECIMAL}
+    </select>
+
+    <select id="selectByPrimaryKey2" resultMap="BaseResultMap" useCache="true" statementType="STATEMENT">
+        select
+        EMPLOYEE_ID, FIRST_NAME, LAST_NAME, EMAIL, SALARY
+        from EMPLOYEES
+        where EMPLOYEE_ID = 32
     </select>
 </mapper>

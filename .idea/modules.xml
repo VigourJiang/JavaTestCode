@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/test-guava/test-guava.iml" filepath="$PROJECT_DIR$/test-guava/test-guava.iml" />
       <module fileurl="file://$PROJECT_DIR$/test-hibernate/test-hibernate.iml" filepath="$PROJECT_DIR$/test-hibernate/test-hibernate.iml" />
       <module fileurl="file://$PROJECT_DIR$/test-jackson/test-jackson.iml" filepath="$PROJECT_DIR$/test-jackson/test-jackson.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test-java8/test-java8.iml" filepath="$PROJECT_DIR$/test-java8/test-java8.iml" />
       <module fileurl="file://$PROJECT_DIR$/test-jdbc/test-jdbc.iml" filepath="$PROJECT_DIR$/test-jdbc/test-jdbc.iml" />
       <module fileurl="file://$PROJECT_DIR$/test-mybatis/test-mybatis.iml" filepath="$PROJECT_DIR$/test-mybatis/test-mybatis.iml" />
       <module fileurl="file://$PROJECT_DIR$/test-openJDK/test-openJDK.iml" filepath="$PROJECT_DIR$/test-openJDK/test-openJDK.iml" />

@@ -6,3 +6,5 @@
 - Julia is ${ages.Julia}
 - ${list[2]}
 - ${custom(3, 4)}
+
+- ${custom2["aaa"]}

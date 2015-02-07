@@ -35,7 +35,12 @@ public class SelectDemo {
 
         params.put("min_salary", 10000);
 
-        List<Employee> result2 = sqlSession.selectList("com.vigour.EmployeesMapper.selectByPrimaryKey", 1);
+        List<Employee> result2 = sqlSession.selectList(
+                "com.vigour.EmployeesMapper.selectByPrimaryKey", 100);
+        List<Employee> result2_2 = sqlSession.selectList(
+                "com.vigour.EmployeesMapper.selectByPrimaryKey", 100);
+        List<Employee> result3 = sqlSession.selectList(
+                "com.vigour.EmployeesMapper.selectByPrimaryKey2", 100);
 
 /*        //a.查询工资低于10000的员工
         List<Employee> result = sqlSession.selectList("com.vigour.EmployeesMapper.selectByMinSalary", params);

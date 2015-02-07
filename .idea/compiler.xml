@@ -28,10 +28,14 @@
         <module name="test-freemarker" />
         <module name="test-guava" />
         <module name="test-jackson" />
+        <module name="test-java8" />
         <module name="test-jdbc" />
         <module name="test-mybatis" />
         <module name="test-springAop" />
       </profile>
     </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_STRING" value="-parameters" />
   </component>
 </project>

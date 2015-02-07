@@ -39,6 +39,8 @@ public class App {
         latest.put("url", "products/greenmouse.html");
         latest.put("name", "green mouse");
 
+        root.put("custom2", new CustomModel());
+
         root.put("custom", new CustomMethod());
         /* Get the template */
         Template temp = cfg.getTemplate("test.ftl");
@@ -54,7 +56,7 @@ class CustomModel implements TemplateHashModel{
 
     @Override
     public TemplateModel get(String key) throws TemplateModelException {
-       return new SimpleScalar("hello nokia");
+       return new SimpleScalar("hello, " + key);
     }
 
     @Override
